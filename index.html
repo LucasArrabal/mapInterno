@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Department Store Floor Plan</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+
+<body>
+    <select id="startLocation">
+        <option value="novalue">Onde estou</option>
+        <option value="Entrance">Entrance</option>
+        <option value="Electronics1">Electronics 1</option>
+        <option value="Electronics2">Electronics 2</option>
+        <option value="Clothing1">Clothing 1</option>
+        <option value="Clothing2">Clothing 2</option>
+        <option value="HomeGoods">HomeGoods</option>
+        <option value="Exit">Exit</option>
+    </select>
+
+    <select id="endLocation">
+        <option value="novalue">Onde vou</option>
+        <option value="Entrance">Entrance</option>
+        <option value="Electronics1">Electronics 1</option>
+        <option value="Electronics2">Electronics 2</option>
+        <option value="Clothing1">Clothing 1</option>
+        <option value="Clothing2">Clothing 2</option>
+        <option value="HomeGoods">HomeGoods</option>
+        <option value="Exit">Exit</option>
+    </select>
+
+    <button id="findRoute">Find Route</button>
+
+    <div id="map" style="width: 600px; height: 400px;"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
